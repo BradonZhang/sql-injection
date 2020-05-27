@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sql-injection/static/css/main.5f361e03.chunk.css",
+    "main.js": "/sql-injection/static/js/main.290cc75f.chunk.js",
+    "main.js.map": "/sql-injection/static/js/main.290cc75f.chunk.js.map",
+    "runtime-main.js": "/sql-injection/static/js/runtime-main.5c9750ad.js",
+    "runtime-main.js.map": "/sql-injection/static/js/runtime-main.5c9750ad.js.map",
+    "static/js/2.e7b5e647.chunk.js": "/sql-injection/static/js/2.e7b5e647.chunk.js",
+    "static/js/2.e7b5e647.chunk.js.map": "/sql-injection/static/js/2.e7b5e647.chunk.js.map",
+    "index.html": "/sql-injection/index.html",
+    "precache-manifest.ec49cf155bc9fffbdc14c1ff2668a0c4.js": "/sql-injection/precache-manifest.ec49cf155bc9fffbdc14c1ff2668a0c4.js",
+    "service-worker.js": "/sql-injection/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/sql-injection/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.e7b5e647.chunk.js.LICENSE.txt": "/sql-injection/static/js/2.e7b5e647.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/sql-injection/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c9750ad.js",
+    "static/js/2.e7b5e647.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.290cc75f.chunk.js"
+  ]
+}
