@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "i_am_admin",
+            "credit_card": "1234 5678"
+        },
+        {
+            "username": "SmartUser",
+            "password": "abcxyz123",
+            "credit_card": "3246 3246"
+        },
+        {
+            "username": "SomeUser",
+            "password": "password987",
+            "credit_card": "9876 5432"
+        },
+        {
+            "username": "bs2020",
+            "password": "n0t_m3_u$",
+            "credit_card": "2016 2020"
+        },
+        {
+            "username": "kpop_stan",
+            "password": "jungkook4lyfe",
+            "credit_card": "2222 2222"
+        },
+        {
+            "username": "CheeseFan3",
+            "password": "provolone",
+            "credit_card": "0000 0000"
+        },
+        {
+            "username": "ball4life",
+            "password": "ripkobe",
+            "credit_card": "0824 0126"
+        },
+        {
+            "username": "catlover17",
+            "password": "nyanyanya",
+            "credit_card": "3333 3333"
+        }
+    ]
+}

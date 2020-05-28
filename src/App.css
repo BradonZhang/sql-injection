@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+code {
+  background-color: #c0c0c0;
+  color: black;
+  border: 1px #808080 solid;
+  border-radius: 8px;
+}
+table {
+  width: 100%;
+}
+th {
+  width: 33%;
+}

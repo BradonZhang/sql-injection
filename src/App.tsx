@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import slides from './slides';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <header className="App-header">
+        <h1>
+          SQL Injections
+        </h1>
+        <h3>
+          What they are, why they happen, and how to prevent them
+        </h3>
+      </header> */}
+      {slides.map((Slide, index) => <Slide key={index} />)}
     </div>
   );
 }
