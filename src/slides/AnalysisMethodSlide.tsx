@@ -5,10 +5,9 @@ import Slide from '../types/Slide';
 import './TitleSlide.css';
 
 const SlideContainer = styled.div`
-  color: #00c000;
+  color: black;
   width: 100vw;
-  min-height: 100vh;
-  background-color: #202020;
+  background-color: #e0e0e0;
   overflow-x: hidden;
   justify-content: center;
   flex: 1;

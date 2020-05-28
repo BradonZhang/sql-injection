@@ -5,10 +5,9 @@ import Slide from '../types/Slide';
 import './TitleSlide.css';
 
 const SlideContainer = styled.div`
-  color: #00c000;
+  color: black;
   width: 100vw;
-  min-height: 100vh;
-  background-color: #202020;
+  background-color: #d0d0d0;
   overflow-x: hidden;
   justify-content: center;
   flex: 1;
@@ -29,6 +28,8 @@ const TakeawaysSlide: Slide = (props) => {
         <p>However, the takeaway for developers is the same: user input should <strong>not</strong> be trusted. Sanitize all user input!</p>
         <p>Fortunately, many resources are available to responsible software engineers to make sanitation easy. SQL libraries in many different languages, such as Python, have user input sanitation built in.</p>
         <p>With just some simple integration of mindful coding practices and preventative methods such as penetration testing, web applications become that much more secure.</p>
+        <br />
+        <p>(Bonus: XKCD has a <a href='https://xkcd.com/327/' target='blank'>relevant comic</a> about SQL injection.)</p>
       </TextContainer>
     </SlideContainer>
   );

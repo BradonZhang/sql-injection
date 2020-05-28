@@ -8,11 +8,9 @@ import './TitleSlide.css';
 import { users } from './users.json';
 
 const SlideContainer = styled.div`
-  /* font-family: Consolas, 'Courier New', Courier, monospace; */
-  color: #00c000;
+  color: #000000;
   width: 100vw;
-  min-height: 100vh;
-  background-color: #202020;
+  background-color: #d0d0d0;
   overflow-x: hidden;
   justify-content: center;
   flex: 1;
@@ -31,9 +29,14 @@ const QueryResults = styled.div`
 
 const dummyUsername = 'SmartUser';
 const dummyPassword = 'abcxyz123';
+const emptyUser = {
+  username: '',
+  password: '',
+  credit_card: ''
+};
 
 const WhatIsSqlSlide: Slide = (props) => {
-  const [rows, setRows] = useState<Array<User>>([]);
+  const [rows, setRows] = useState<Array<User>>([emptyUser]);
   const [username, setUsername] = useState(dummyUsername);
   const [password, setPassword] = useState(dummyPassword);
 
@@ -51,7 +54,7 @@ const WhatIsSqlSlide: Slide = (props) => {
 
   return (
     <SlideContainer>
-        <TextContainer>
+      <TextContainer>
         <h1>What is SQL?</h1>
         <p><strong>SQL</strong> (<strong>S</strong>tructured <strong>Q</strong>uery <strong>L</strong>anguage) is a text language used to execute queries on databases. A query is a request to retrieve or modify the data in a database.</p>
         <p>In web applications that use SQL, a user sends a request to the server through a user-friendly interface. The server then processes the request, tells the database to run a SQL query, and returns the corresponding data back to the user.</p>

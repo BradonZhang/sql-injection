@@ -1,19 +1,23 @@
 import React from 'react';
 import './App.css';
-import slides from './slides';
+import TitleSlide from './slides/TitleSlide';
+import WhatIsSqlSlide from './slides/WhatIsSqlSlide';
+import SqlInjectionIntroSlide from './slides/SqlInjectionIntroSlide';
+import WhatHappenedSlide from './slides/WhatHappenedSlide';
+import AnalysisMethodSlide from './slides/AnalysisMethodSlide';
+import TakeawaysSlide from './slides/TakeawaysSlide';
+import ReferencesSlide from './slides/ReferencesSlide';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <h1>
-          SQL Injections
-        </h1>
-        <h3>
-          What they are, why they happen, and how to prevent them
-        </h3>
-      </header> */}
-      {slides.map((Slide, index) => <Slide key={index} />)}
+      <TitleSlide />
+      <WhatIsSqlSlide />
+      <SqlInjectionIntroSlide />
+      <WhatHappenedSlide />
+      <AnalysisMethodSlide />
+      <TakeawaysSlide />
+      <ReferencesSlide />
     </div>
   );
 }

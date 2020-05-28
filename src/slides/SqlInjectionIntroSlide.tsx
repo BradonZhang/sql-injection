@@ -7,10 +7,9 @@ import './TitleSlide.css';
 import { users } from './users.json';
 
 const SlideContainer = styled.div`
-  color: #00c000;
+  color: black;
   width: 100vw;
-  min-height: 100vh;
-  background-color: #202020;
+  background-color: #e0e0e0;
   overflow-x: hidden;
   justify-content: center;
   flex: 1;
